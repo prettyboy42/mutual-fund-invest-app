@@ -7,14 +7,20 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "@types/lodash": "^4.14.159",
     "@vue/composition-api": "^0.6.4",
+    "apexcharts": "^3.20.0",
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
-    "quasar": "^1.0.0"
+    "lodash": "^4.17.19",
+    "quasar": "^1.0.0",
+    "vue-apexcharts": "^1.6.0",
+    "vue-lodash": "^2.1.2"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",

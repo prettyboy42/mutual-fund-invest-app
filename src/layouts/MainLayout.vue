@@ -13,7 +13,8 @@
 
         <q-toolbar-title>Personal Finance</q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <!-- <div>Quasar v{{ $q.version }}</div> -->
+        <div>atamdeptrai</div>
       </q-toolbar>
     </q-header>
 

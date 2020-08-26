@@ -47,6 +47,7 @@ import {
   reactive,
   onMounted,
   watch,
+  SetupContext,
 } from '@vue/composition-api';
 import axios from 'axios';
 import { Notify } from 'quasar';
@@ -183,7 +184,9 @@ const convertArrayToObject = (array: TNavItem[]) => {
 
 export default defineComponent({
   name: 'MutualFundChart',
-  setup() {
+  setup(props, context: SetupContext) {
+    const qNotify = context.root.$q;
+
     const defaultColumns: QColumn[] = [];
     const defaultTableData: QData[] = [];
     const state = reactive({
@@ -231,7 +234,7 @@ export default defineComponent({
           state.data = data;
         })
         .catch((error) => {
-          Notify.create({
+          qNotify.notify({
             color: 'negative',
             position: 'top',
             message: error as string,

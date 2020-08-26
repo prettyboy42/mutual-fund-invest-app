@@ -28,11 +28,11 @@
           </q-item-section>
           <q-item-section>Home</q-item-section>
         </q-item>
-        <q-item to="/mutual-fund" clickable v-ripple>
+        <q-item to="/todo" clickable v-ripple>
           <q-item-section avatar>
             <q-icon name="show_chart" />
           </q-item-section>
-          <q-item-section>Mutual Funds</q-item-section>
+          <q-item-section>Todo</q-item-section>
         </q-item>
         <!-- <q-separator/>
         <EssentialLink

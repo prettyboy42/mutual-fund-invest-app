@@ -12,19 +12,19 @@
     "deploy": "push-dir --verbose --dir=dist/spa --remote=origin --branch=gh-pages"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
+    "@quasar/extras": "^1.9.4",
     "@types/lodash": "^4.14.159",
     "@vue/composition-api": "^0.6.4",
     "apexcharts": "^3.20.0",
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
     "lodash": "^4.17.19",
-    "quasar": "^1.0.0",
+    "quasar": "^1.13.1",
     "vue-apexcharts": "^1.6.0",
     "vue-lodash": "^2.1.2"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0",
+    "@quasar/app": "^2.0.8",
     "@types/node": "^10.17.15",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
     "@typescript-eslint/parser": "^3.3.0",
